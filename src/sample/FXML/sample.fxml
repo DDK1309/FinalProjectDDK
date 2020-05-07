@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="content" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="400.0" style="-fx-border-color: #188941; -fx-border-width: 4px 4px 4px 4px;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Classes.Controller">
+    <children>
+        <AnchorPane layoutY="-6.0" prefHeight="140.0" prefWidth="400.0" style="-fx-background-color: #035100;">
+            <children>
+                <Line endX="70.0" endY="-82.0" layoutX="162.0" layoutY="82.0" startX="-27.0" startY="66.00001525878906" />
+                <Region prefHeight="154.0" prefWidth="139.0" style="-fx-background-color: #03a200;" />
+                <Polygon fill="#03a200" layoutX="170.0" layoutY="60.0" points="-31.0, 94.0, 68.70709228515625, -60.70710754394531, -31.0, -60.70709991455078" stroke="#03a200" strokeType="INSIDE" />
+                <AnchorPane layoutX="79.0" layoutY="30.0" prefHeight="90.0" prefWidth="234.0" style="-fx-background-color: #163218;">
+                    <children>
+                        <AnchorPane layoutX="-17.0" prefHeight="90.0" prefWidth="129.0" style="-fx-background-color: #1EB928;">
+                            <children>
+                                <Text fill="WHITE" layoutX="3.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="KICK">
+                                    <font>
+                                        <Font name="Gisha Bold" size="55.0" />
+                                    </font>
+                                </Text>
+                            </children>
+                        </AnchorPane>
+                        <Text fill="WHITE" layoutX="117.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OFF">
+                            <font>
+                                <Font name="Gisha Bold" size="58.0" />
+                            </font>
+                        </Text>
+                    </children>
+                </AnchorPane>
+                <Line endX="124.0" layoutX="189.0" layoutY="30.0" startX="-128.0" stroke="WHITE" strokeWidth="3.0" />
+                <Ellipse fill="WHITE" layoutX="61.0" layoutY="30.0" radiusX="3.0" radiusY="3.0" stroke="WHITE" strokeType="INSIDE" />
+                <Ellipse fill="WHITE" layoutX="62.0" layoutY="120.0" radiusX="3.0" radiusY="3.0" stroke="WHITE" strokeType="INSIDE" />
+                <Ellipse fill="WHITE" layoutX="315.0" layoutY="31.0" radiusX="3.0" radiusY="3.0" stroke="WHITE" strokeType="INSIDE" />
+                <Line endX="101.0" endY="43.0" layoutX="-39.0" layoutY="77.0" startX="100.0" startY="-45.70709991455078" stroke="WHITE" strokeWidth="3.0" />
+                <Line endX="133.0" endY="-7.62939453125E-6" layoutX="180.0" layoutY="120.0" startX="-118.0" startY="-7.62939453125E-6" stroke="WHITE" strokeWidth="3.0" />
+                <Line endX="99.5" endY="43.0" layoutX="215.0" layoutY="77.0" startX="100.0" startY="-45.70709991455078" stroke="WHITE" strokeWidth="3.0" />
+                <Ellipse fill="WHITE" layoutX="314.0" layoutY="120.0" radiusX="3.0" radiusY="3.0" stroke="WHITE" strokeType="INSIDE" />
+            <Button fx:id="ExitButton" layoutX="365.0" layoutY="7.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="28.0" style="-fx-background-color: red;" text="X" textFill="WHITE">
+               <font>
+                  <Font name="AR DESTINE" size="16.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="93.0" fitWidth="98.0" layoutX="149.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true" smooth="false" style="-fx-blend-mode: #188941;">
+            <image>
+                <Image url="@../Assetss/iconfinder_Account_1891016.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="LoginField" layoutX="106.0" layoutY="289.0" prefHeight="33.0" prefWidth="179.0" promptText="ENTER YOUR LOGIN" style="-fx-background-color: transparent; -fx-border-color: #188941; -fx-border-width: 0px 0px 2px 0px;" />
+        <PasswordField fx:id="PasswordField" layoutX="106.0" layoutY="342.0" prefHeight="33.0" prefWidth="179.0" promptText="ENTER YOUR PASSWORD" style="-fx-background-color: transparent; -fx-border-color: #188941; -fx-border-width: 0px 0px 2px 0px;" />
+        <Text fill="#188941" layoutX="128.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AUTHORIZATION" wrappingWidth="139.9999976158142">
+            <font>
+                <Font name="DilleniaUPC" size="26.0" />
+            </font>
+        </Text>
+        <Button fx:id="LoginSignin" layoutX="155.0" layoutY="392.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="82.0" style="-fx-background-color: #188941;" text="SIGN IN" textFill="WHITE" />
+      <Button fx:id="RegistrationButton" layoutX="147.0" layoutY="436.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="98.0" style="-fx-background-color: #188941;" text="REGISTRATE" textFill="WHITE" />
+    </children>
+</AnchorPane>

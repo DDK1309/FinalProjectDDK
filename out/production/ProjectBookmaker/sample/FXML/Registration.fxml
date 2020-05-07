@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="327.0" style="-fx-border-color: #0d5d0c; -fx-border-width: 4px 4px 4px 4px;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Classes.RegistrationController">
+   <children>
+      <Text fill="#0d5d0c" layoutX="97.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="REGISTRATION">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="FisrtName" layoutX="14.0" layoutY="79.0" prefHeight="27.0" prefWidth="139.0" promptText="FIRST NAME" style="-fx-background-color: transparent; -fx-border-color: #0d5d0c; -fx-border-width: 0px 0px 2px 0px;" />
+      <TextField fx:id="LastName" layoutX="174.0" layoutY="79.0" prefHeight="27.0" prefWidth="139.0" promptText="LAST NAME" style="-fx-background-color: transparent; -fx-border-color: #0d5d0c; -fx-border-width: 0px 0px 2px 0px;" />
+      <TextField fx:id="UserName" layoutX="94.0" layoutY="131.0" prefHeight="27.0" prefWidth="146.0" promptText="USERNAME" style="-fx-background-color: transparent; -fx-border-color: #0d5d0c; -fx-border-width: 0px 0px 2px 0px;" />
+      <TextField fx:id="Email" layoutX="94.0" layoutY="177.0" prefHeight="27.0" prefWidth="146.0" promptText="E-mail" style="-fx-background-color: transparent; -fx-border-color: #0d5d0c; -fx-border-width: 0px 0px 2px 0px;" />
+      <PasswordField fx:id="PasswordReg" layoutX="93.0" layoutY="229.0" promptText="PASSWORD" style="-fx-background-color: transparent; -fx-border-color: #0d5d0c; -fx-border-width: 0px 0px 2px 0px;" />
+      <Button fx:id="SignUpButton" layoutX="129.0" layoutY="274.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" style="-fx-background-color: #0d5d0c;" text="SIGN UP" textFill="WHITE" />
+      <Button fx:id="Nazad" layoutX="244.0" layoutY="281.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="69.0" style="-fx-background-color: #0d5d0c;" text="CANCEL" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="487.0" prefWidth="773.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Classes.MainBookController">
+   <children>
+      <ImageView fitHeight="577.0" fitWidth="773.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assetss/liga-chempionov-lch-stadion.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="12.0" layoutY="52.0" prefHeight="162.0" prefWidth="349.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Line endX="142.0" layoutX="163.0" layoutY="93.0" startX="-166.0" />
+            <Line endX="142.0" layoutX="166.0" layoutY="121.0" startX="-166.0" />
+            <Line endX="88.5" layoutX="100.0" layoutY="1.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-102.49998474121094" endY="-71.99999237060547" layoutX="101.0" layoutY="73.0" startX="-102.49998474121094" startY="88.71920776367188" strokeWidth="3.0" />
+            <Line endX="237.0" layoutX="109.0" layoutY="162.0" startX="-109.0" strokeWidth="3.0" />
+            <Polygon fill="#33651c" layoutX="273.0" layoutY="24.0" points="-128.0, -65.0, 76.0, 139.71920776367188, 76.0, -65.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <Circle fill="#393939" layoutX="272.0" layoutY="56.0" radius="48.0" stroke="#ffffff00" strokeType="INSIDE" />
+            <ImageView fitHeight="120.0" fitWidth="122.0" layoutX="212.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assetss/iconfinder_football-08_1517212.png" />
+               </image>
+            </ImageView>
+            <Line endX="93.0" layoutX="111.0" layoutY="55.0" startX="-100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4dc34b" height="27.0" layoutX="9.0" layoutY="22.0" stroke="TRANSPARENT" strokeType="INSIDE" width="27.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4dc34b" height="27.0" layoutX="86.0" layoutY="22.0" stroke="TRANSPARENT" strokeType="INSIDE" width="27.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4dc34b" height="27.0" layoutX="47.0" layoutY="22.0" stroke="TRANSPARENT" strokeType="INSIDE" width="27.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8bf3b" height="27.0" layoutX="124.0" layoutY="22.0" stroke="TRANSPARENT" strokeType="INSIDE" width="27.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4dc34b" height="27.0" layoutX="161.0" layoutY="22.0" stroke="TRANSPARENT" strokeType="INSIDE" width="27.0" />
+            <Text layoutX="13.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W" wrappingWidth="20.970574498176575">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="166.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W" wrappingWidth="20.970574498176575">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="91.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W" wrappingWidth="20.970574498176575">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="51.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W" wrappingWidth="20.970574498176575">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="131.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D" wrappingWidth="20.970574498176575">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="190.0" layoutY="-27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Etihad Stadium, Manchester" textAlignment="CENTER" wrappingWidth="163.03273305296898">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="MancityWin" layoutX="1.0" layoutY="53.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Man.City wins - 1.92" textFill="#198cb5">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="MancityNeproigraet" layoutX="-3.0" layoutY="85.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="1x - 1.48" textFill="#198cb5">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="MancityFora" layoutX="86.0" layoutY="85.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="1x (-1) -1.85" textFill="#198cb5">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="MancityTotalBolshe" layoutX="9.0" layoutY="116.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Total goals of Man.City more than 1.5 - 1.99" textFill="#198cb5" />
+            <Button fx:id="MancityTotalMenshe" layoutX="10.0" layoutY="134.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Total goals of Man.City less than 1.5 - 2.67" textFill="#198cb5" />
+         </children>
+      </Pane>
+      <Pane layoutX="405.0" layoutY="52.0" prefHeight="162.0" prefWidth="349.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Line endX="146.378662109375" layoutX="200.0" layoutY="90.0" startX="-166.0" />
+            <Line endX="146.378662109375" layoutX="200.0" layoutY="119.0" startX="-166.0" />
+            <Line endX="88.5" layoutX="259.0" layoutY="-2.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="239.0" endY="0.621307373046875" layoutX="109.0" layoutY="161.0" startX="-106.0" startY="0.621307373046875" strokeWidth="3.0" />
+            <Polygon fill="#33651c" layoutX="-60.0" layoutY="23.0" points="282.0, -65.00000762939453, 60.0, 139.21920776367188, 60.0, -65.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+            <ImageView fitHeight="120.0" fitWidth="135.0" layoutX="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Assetss/iconfinder_football-07_1517213.png" />
+               </image>
+            </ImageView>
+            <Line endX="-102.5" endY="-78.28079223632812" layoutX="452.0" layoutY="76.0" startX="-103.5" startY="84.5" strokeWidth="3.0" />
+            <Line endX="93.0" layoutX="241.0" layoutY="60.0" startX="-100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4dc34b" height="27.0" layoutX="163.0" layoutY="28.0" stroke="TRANSPARENT" strokeType="INSIDE" width="27.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="RED" height="27.0" layoutX="233.0" layoutY="28.0" stroke="TRANSPARENT" strokeType="INSIDE" width="27.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4dc34b" height="27.0" layoutX="197.0" layoutY="28.0" stroke="TRANSPARENT" strokeType="INSIDE" width="27.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8bf3b" height="27.0" layoutX="268.0" layoutY="28.0" stroke="TRANSPARENT" strokeType="INSIDE" width="27.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4dc34b" height="27.0" layoutX="303.0" layoutY="28.0" stroke="TRANSPARENT" strokeType="INSIDE" width="27.0" />
+            <Text layoutX="167.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W" wrappingWidth="20.970574498176575">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="307.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W" wrappingWidth="20.970574498176575">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="243.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="L" wrappingWidth="20.970574498176575">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="202.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="W" wrappingWidth="20.970574498176575">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="274.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="D" wrappingWidth="20.970574498176575">
+               <font>
+                  <Font name="Calibri" size="20.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="-2.0" layoutY="-27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="England: Premier League Tour 25" textAlignment="CENTER" wrappingWidth="163.03273305296898">
+               <font>
+                  <Font name="Bell MT Bold" size="18.0" />
+               </font>
+            </Text>
+            <Button fx:id="LiverWins" layoutX="140.0" layoutY="52.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Liverpool wins - 2.27" textFill="#198cb5">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="LiverNeProigraet" layoutX="111.0" layoutY="81.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="2x - 1.73" textFill="#198cb5">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="LiverFora" layoutX="214.0" layoutY="81.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="2x (-1) -2.53" textFill="#198cb5">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="LiverTotalBolshe" layoutX="85.0" layoutY="119.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Total goals of Liverpool more than 1.5 - 2.87" textFill="#198cb5" />
+            <Button fx:id="LiverTotalMenshe" layoutX="84.0" layoutY="135.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Total goals of Liverpool less than 1.5 - 1.78" textFill="#198cb5" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="192.0" fitWidth="191.0" layoutX="284.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assetss/the-premier-league.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="57.0" fitWidth="120.0" layoutX="334.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Assetss/iconfinder_Football_Field_381594.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="17.0" layoutY="416.0" prefHeight="57.0" prefWidth="317.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Text fill="#5ea8d0" layoutX="8.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LINE-UP OF MANCHESTER CITY" wrappingWidth="337.5000025033951">
+               <font>
+                  <Font name="AR DESTINE" size="21.0" />
+               </font>
+               <effect>
+                  <Reflection />
+               </effect>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="425.0" layoutY="416.0" prefHeight="57.0" prefWidth="317.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Text fill="#da2b2b" layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LINE-UP OF LIVERPOOL" wrappingWidth="242.50000250339508">
+               <font>
+                  <Font name="AR DESTINE" size="21.0" />
+               </font>
+               <effect>
+                  <Reflection />
+               </effect>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="17.0" layoutY="212.0" prefHeight="205.0" prefWidth="256.0" style="-fx-background-color: #34b67a;">
+         <children>
+            <Text layoutX="9.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.GK Ederson 2.DF Kyle Walker" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="9.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.DF Aymeric Laporte" wrappingWidth="119.99999823793769">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="9.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4.MF Oleksandr Zinchenko" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="9.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5.MF Fernandinho " wrappingWidth="105.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="9.0" layoutY="183.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6.MF Kevin De Bruyne" wrappingWidth="130.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="145.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7.MF David Silva" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="145.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8.MF Bernardo Silva" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="145.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9.MF Leroy Sane" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="145.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10.MF Sterling" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="145.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11.FW Sergio Aguero" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="486.0" layoutY="212.0" prefHeight="205.0" prefWidth="256.0" style="-fx-background-color: #34b67a;">
+         <children>
+            <Text layoutX="10.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.GK Alisson" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2.DF Virgil van Dijk" wrappingWidth="104.9999880194664">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3.DF Trent Alexander-Arnold" wrappingWidth="104.9999880194664">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4.DF Joël Matip" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5.DF Andrew Robertson" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="10.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6.MF Fabinho" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="145.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7.MF Georginio Wijnaldum" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="145.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8.MF Jordan Henderson" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="145.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10.FW Mohamed Salah" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="145.0" layoutY="119.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9.MF Xherdan Shaqiri" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="145.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11.FW Sadio Mané" wrappingWidth="96.00000089406967">
+               <font>
+                  <Font name="Agency FB" size="18.0" />
+               </font>
+            </Text>
+            <Line endX="4.0" endY="168.0" layoutX="252.0" layoutY="93.0" startX="4.0" startY="-93.0" strokeWidth="3.0" />
+         </children>
+      </Pane>
+      <Line endX="3.0" endY="150.71920776367188" layoutX="270.0" layoutY="265.0" startX="3.0" startY="-49.5" strokeWidth="3.0" />
+      <Line endX="3.0" endY="216.71920776367188" layoutX="14.0" layoutY="256.0" startX="3.0" startY="-43.5" strokeWidth="3.0" />
+      <Line endX="3.0" endY="150.71920776367188" layoutX="483.0" layoutY="264.0" startX="3.0" startY="-49.5" strokeWidth="3.0" />
+      <Line endX="113.0" layoutX="373.0" layoutY="417.0" startX="-100.0" strokeWidth="3.0" />
+      <Line endX="629.3333129882812" layoutX="114.0" layoutY="474.0" startX="-100.0" strokeWidth="3.0" />
+      <Button fx:id="NazadAuth" layoutX="13.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-border-color: #ffffff; -fx-border-width: 2px 2px 2px 2px;" text="BACK" textFill="WHITE" />
+   </children>
+</AnchorPane>
